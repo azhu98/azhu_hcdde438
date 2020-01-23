@@ -1,5 +1,5 @@
 import React, {useState, useRef, useEffect} from 'react';
-import { FiEdit, FiSave } from 'react-icons/fi';
+import { GoDiffRemoved, GoDiffAdded } from 'react-icons/go';
 import './App.css';
 
 function NamePicker(props) {
@@ -36,7 +36,7 @@ function NamePicker(props) {
         />
         {showName && <div>{name}</div>}
         <button onClick={save} className="name-button">
-            {showName ? <FiEdit /> : <FiSave />}
+            {showName ? <GoDiffRemoved /> : <GoDiffAdded />}
         </button>
     </div>
 }
