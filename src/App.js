@@ -4,6 +4,7 @@ import NamePicker from './namePicker'
 
 function App() {
   const [messages, setMessages] = useState([])
+  const [name, setName] = useState('')
   console.log(messages)
   return <main>
     <header> 
@@ -11,7 +12,7 @@ function App() {
       <img src="https://www.freeiconspng.com/uploads/message-icon-png-0.png" alt="icon"/>
       Chatter
       </div>
-      <NamePicker onSave={name=>{}} />
+      <NamePicker onSave={setName} />
     </header>
   
  

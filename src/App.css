@@ -59,7 +59,7 @@ header{
   border:1px solid white;
   border-radius:14px;
   padding-left:12px;
-  background:#4FB2FC;
+  background: #83a4d4;
   padding-bottom:2px;
   font-size:12px;
   outline:none;
@@ -123,6 +123,7 @@ header img{
   border-radius: 5px;
   padding: 5px;
   display: inline-block;
+  justify-items: right;
 }
 
 .message-wrap{
